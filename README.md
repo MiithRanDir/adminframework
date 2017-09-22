@@ -1,7 +1,7 @@
 # Admin Framework by Kotchasan
 เป็น Framework สำหรับระบบ Backend ที่ผมใช้เป็น base สำหรับหลายๆโปรเจ็ค ที่ผมออกมาในช่วงนี้ ซึ่งโปรเจ็คนี้จะแสดงถึงความสามารถทั้งหมดของ Admin Framework ที่สามารถนำไปใช้งานได้
 
-รายละเอียดเพิ่มเติม https://www.kotchasan.com/index.php?module=knowledge&id=88
+รายละเอียดเพิ่มเติม https://www.kotchasan.com/index.php?module=knowledge&id=
 
 ## ความต้องการของระบบ
 * PHP 5.3 ขึ้นไป
@@ -15,7 +15,7 @@
 
 ## การใช้งาน
 * เข้าระบบเป็นผู้ดูแลระบบ : ```admin@localhost``` และ Password : ```admin```
-* เข้าระบบเป็นเจ้าหน้าที่ : ```demo@localhost``` และ Password : ```demo```
+* เข้าระบบเป็นสมาชิก : ```demo@localhost``` และ Password : ```demo```
 
 ## ข้อตกลงการนำไปใช้งาน
 * สามารถนำไปใช้งานส่วนตัวและสามารถพัฒนาต่อยอดได้
