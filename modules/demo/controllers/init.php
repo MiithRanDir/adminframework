@@ -39,20 +39,45 @@ class Controller extends \Kotchasan\KBase
         'url' => 'index.php?module=demo&amp;page=typography'
       ),
       array(
+        'text' => 'Message',
+        'url' => 'index.php?module=demo&amp;page=message'
+      ),
+      array(
         'text' => 'Form &amp; Form Component',
         'url' => 'index.php?module=demo&amp;page=form'
+      ),
+      array(
+        'text' => 'Graphs',
+        'url' => 'index.php?module=demo&amp;page=graphs'
       ),
       array(
         'text' => 'Table',
         'url' => 'index.php?module=demo-table'
       ),
       array(
+        'text' => 'Grid',
+        'url' => 'index.php?module=demo&amp;page=grid'
+      ),
+      array(
         'text' => 'Icons',
-        'url' => 'skin/',
+        'url' => WEB_URL.'skin/index.html',
         'target' => '_blank'
       ),
     );
-// สร้างเมนูบนสุดก่อนเมนู settings
+    // สร้างเมนูบนสุดก่อนเมนู settings
     $menu->addTopLvlMenu('demo', 'Demo', null, $submenus, 'settings');
+  }
+
+  /**
+   * รายการ permission ของโมดูล
+   *
+   * @param array $permissions
+   * @return array
+   */
+  public static function updatePermissions($permissions)
+  {
+    // ตัวอย่างการกำหนด permission ของโมดูล
+    $permissions['can_view'] = 'สามารถเปิดดูโมดูลได้';
+    return $permissions;
   }
 }
