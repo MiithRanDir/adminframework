@@ -1,7 +1,7 @@
 # Admin Framework by Kotchasan
 เป็น Framework สำหรับระบบ Backend ที่ผมใช้เป็น base สำหรับหลายๆโปรเจ็ค ที่ผมออกมาในช่วงนี้ ซึ่งโปรเจ็คนี้จะแสดงถึงความสามารถทั้งหมดของ Admin Framework ที่สามารถนำไปใช้งานได้
 
-รายละเอียดเพิ่มเติม https://www.kotchasan.com/index.php?module=knowledge&id=
+รายละเอียดเพิ่มเติม https://www.kotchasan.com/index.php?module=knowledge&id=92
 
 ## ความต้องการของระบบ
 * PHP 5.3 ขึ้นไป
