@@ -1180,7 +1180,7 @@ window.$K = (function () {
         frm.set('action', frmaction);
       }
       this.loader = null;
-      this.loading = loading;
+      this.loading = loading || 'wait';
       this.center = center;
       this.onbeforesubmit = Object.isFunction(onbeforesubmit) ? onbeforesubmit : $K.resultFunction;
       var temp = this;

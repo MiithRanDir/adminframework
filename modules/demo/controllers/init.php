@@ -9,8 +9,6 @@
 namespace Demo\Init;
 
 use \Kotchasan\Http\Request;
-use \Gcms\Login;
-use \Kotchasan\Language;
 
 /**
  * Init Module
@@ -45,6 +43,10 @@ class Controller extends \Kotchasan\KBase
       array(
         'text' => 'Form &amp; Form Component',
         'url' => 'index.php?module=demo&amp;page=form'
+      ),
+      array(
+        'text' => 'Ajax Upload',
+        'url' => 'index.php?module=demo-upload'
       ),
       array(
         'text' => 'Graphs',

@@ -1,12 +1,12 @@
 <?php
 /**
- * @filesource modules/demo/controllers/table.php
+ * @filesource modules/demo/controllers/upload.php
  * @link http://www.kotchasan.com/
  * @copyright 2016 Goragod.com
  * @license http://www.kotchasan.com/license/
  */
 
-namespace Demo\Table;
+namespace Demo\Upload;
 
 use \Kotchasan\Http\Request;
 use \Kotchasan\Language;
@@ -32,7 +32,7 @@ class Controller extends \Gcms\Controller
   public function render(Request $request)
   {
     // ข้อความ title bar
-    $this->title = 'Data Table';
+    $this->title = 'Ajax Upload';
     // เลือกเมนู
     $this->menu = 'demo';
     // ตรวจสอบ premission (can_config)
@@ -46,10 +46,10 @@ class Controller extends \Gcms\Controller
       $ul = $breadcrumbs->add('ul');
       $ul->appendChild('<li><span class="icon-home">{LNG_Home}</span></li>');
       $section->add('header', array(
-        'innerHTML' => '<h2 class="icon-table">'.$this->title.'</h2>'
+        'innerHTML' => '<h2 class="icon-upload">'.$this->title.'</h2>'
       ));
       // แสดงตาราง
-      $section->appendChild(createClass('Demo\Table\View')->render($request));
+      $section->appendChild(createClass('Demo\Upload\View')->render($request));
       return $section->render();
     }
     // 404.html
