@@ -24,7 +24,7 @@ CREATE TABLE `{prefix}_language` (
   `js` tinyint(1) NOT NULL,
   `th` text COLLATE utf8_unicode_ci NOT NULL,
   `en` text COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
